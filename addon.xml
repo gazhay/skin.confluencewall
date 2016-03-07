@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon
-  id="skin.confluence"
+  id="skin.confluencewall"
   version="2.7.4"
-  name="Confluence"
-  provider-name="Jezz_X, Team Kodi">
+  name="Confluence Wall"
+  provider-name="primaeval">
   <requires>
     <import addon="xbmc.gui" version="5.9.0"/>
   </requires>
