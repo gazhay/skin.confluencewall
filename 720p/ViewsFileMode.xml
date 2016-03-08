@@ -430,11 +430,11 @@
 				<pagecontrol>60</pagecontrol>
 				<scrolltime>200</scrolltime>
 				<preloaditems>2</preloaditems>
-				<itemlayout condition="!Container.Content(Movies) + !Container.Content(Seasons) + !Container.Content(TVShows) + !Container.Content(Sets)" height="120" width="80">
+				<itemlayout condition="!Container.Content(Movies) + !Container.Content(Seasons) + !Container.Content(TVShows) + !Container.Content(Sets)" height="120" width="160">
 					<control type="image">
-						<left>1</left>
+						<left>20</left>
 						<top>0</top>
-						<width>80</width>
+						<width>120</width>
 						<height>120</height>
 						<bordertexture border="2">button-nofocus.png</bordertexture>
 						<bordersize>2</bordersize>
@@ -442,11 +442,11 @@
 						<aspectratio>keep</aspectratio>
 					</control>
 				</itemlayout>
-				<focusedlayout condition="!Container.Content(Movies) + !Container.Content(Seasons) + !Container.Content(TVShows) + !Container.Content(Sets)" height="120" width="80">
+				<focusedlayout condition="!Container.Content(Movies) + !Container.Content(Seasons) + !Container.Content(TVShows) + !Container.Content(Sets)" height="120" width="160">
 					<control type="image">
-						<left>1</left>
+						<left>20</left>
 						<top>0</top>
-						<width>80</width>
+						<width>120</width>
 						<height>120</height>
 						<bordertexture border="2">folder-focus.png</bordertexture>
 						<bordersize>2</bordersize>
@@ -480,9 +480,10 @@
 				</focusedlayout>
 			</control>
 			<control type="scrollbar" id="60">
-				<left>1272</left>
+				<animation effect="slide" end="-20,0" time="0">Focus</animation>
+				<left>1280</left>
 				<top>0</top>
-				<width>10</width>
+				<width>25</width>
 				<height>720</height>
 				<texturesliderbackground border="0,14,0,14">ScrollBarV.png</texturesliderbackground>
 				<texturesliderbar border="2,16,2,16">ScrollBarV_bar.png</texturesliderbar>
