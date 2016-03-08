@@ -17,8 +17,8 @@
 				<texture background="true">$INFO[Container(111).ListItem.Property(Fanart_Image)]</texture>
 				<aspectratio>scale</aspectratio>
 				<fadetime>200</fadetime>
-				<animation effect="fade" time="200">Visible</animation>
-				<animation effect="fade" time="200">Hidden</animation>
+				<animation effect="fade" time="0">Visible</animation>
+				<animation effect="fade" time="0">Hidden</animation>
 				<visible>Control.HasFocus(111)</visible>
 			</control>
 			<control type="image">
@@ -29,8 +29,8 @@
 				<texture background="true">$INFO[Container(121).ListItem.Property(Fanart_Image)]</texture>
 				<aspectratio>scale</aspectratio>
 				<fadetime>200</fadetime>
-				<animation effect="fade" time="200">Visible</animation>
-				<animation effect="fade" time="200">Hidden</animation>
+				<animation effect="fade" time="0">Visible</animation>
+				<animation effect="fade" time="0">Hidden</animation>
 				<visible>Control.HasFocus(121)</visible>
 			</control>
 			<control type="image">
@@ -41,8 +41,8 @@
 				<texture background="true">$INFO[Container(131).ListItem.Property(Fanart_Image)]</texture>
 				<aspectratio>scale</aspectratio>
 				<fadetime>200</fadetime>
-				<animation effect="fade" time="200">Visible</animation>
-				<animation effect="fade" time="200">Hidden</animation>
+				<animation effect="fade" time="0">Visible</animation>
+				<animation effect="fade" time="0">Hidden</animation>
 				<visible>Control.HasFocus(131)</visible>
 			</control>
 			<control type="image">
@@ -53,8 +53,8 @@
 				<texture background="true">$INFO[Container(141).ListItem.Property(Fanart_Image)]</texture>
 				<aspectratio>scale</aspectratio>
 				<fadetime>200</fadetime>
-				<animation effect="fade" time="200">Visible</animation>
-				<animation effect="fade" time="200">Hidden</animation>
+				<animation effect="fade" time="0">Visible</animation>
+				<animation effect="fade" time="0">Hidden</animation>
 				<visible>Control.HasFocus(141)</visible>
 			</control>
 			<control type="image">
@@ -65,8 +65,8 @@
 				<texture background="true">$INFO[Container(151).ListItem.Property(Fanart_Image)]</texture>
 				<aspectratio>scale</aspectratio>
 				<fadetime>200</fadetime>
-				<animation effect="fade" time="200">Visible</animation>
-				<animation effect="fade" time="200">Hidden</animation>
+				<animation effect="fade" time="0">Visible</animation>
+				<animation effect="fade" time="0">Hidden</animation>
 				<visible>Control.HasFocus(151)</visible>
 			</control>
 			<control type="image">
@@ -77,8 +77,8 @@
 				<texture background="true">$INFO[Container(161).ListItem.Property(Fanart_Image)]</texture>
 				<aspectratio>scale</aspectratio>
 				<fadetime>200</fadetime>
-				<animation effect="fade" time="200">Visible</animation>
-				<animation effect="fade" time="200">Hidden</animation>
+				<animation effect="fade" time="0">Visible</animation>
+				<animation effect="fade" time="0">Hidden</animation>
 				<visible>Control.HasFocus(161)</visible>
 			</control>
 			<control type="image">
@@ -89,8 +89,8 @@
 				<texture background="true">$INFO[Container(171).ListItem.Property(Fanart_Image)]</texture>
 				<aspectratio>scale</aspectratio>
 				<fadetime>200</fadetime>
-				<animation effect="fade" time="200">Visible</animation>
-				<animation effect="fade" time="200">Hidden</animation>
+				<animation effect="fade" time="0">Visible</animation>
+				<animation effect="fade" time="0">Hidden</animation>
 				<visible>Control.HasFocus(171)</visible>
 			</control>
 			<control type="image">
@@ -101,8 +101,8 @@
 				<texture background="true">$INFO[Container(181).ListItem.Property(Fanart_Image)]</texture>
 				<aspectratio>scale</aspectratio>
 				<fadetime>200</fadetime>
-				<animation effect="fade" time="200">Visible</animation>
-				<animation effect="fade" time="200">Hidden</animation>
+				<animation effect="fade" time="0">Visible</animation>
+				<animation effect="fade" time="0">Hidden</animation>
 				<visible>Control.HasFocus(181)</visible>
 			</control -->
 			<control type="image">
@@ -111,8 +111,8 @@
 				<width>1280</width>
 				<height>720</height>
 				<texture>black-back.png</texture>
-				<animation effect="fade" time="300">WindowOpen</animation>
-				<animation effect="fade" time="150">WindowClose</animation>
+				<animation effect="fade" time="0">WindowOpen</animation>
+				<animation effect="fade" time="0">WindowClose</animation>
 			</control>
 			<control type="group">
 				<left>90</left>
@@ -214,7 +214,7 @@
 							<width>260</width>
 							<height>61</height>
 							<texture border="5">MenuItemFO.png</texture>
-							<animation effect="fade" start="100" end="50" time="75" condition="!Control.HasFocus(9000)">Conditional</animation>
+							<animation effect="fade" start="100" end="50" time="0" condition="!Control.HasFocus(9000)">Conditional</animation>
 						</control>
 						<control type="label">
 							<left>10</left>

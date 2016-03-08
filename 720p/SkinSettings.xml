@@ -138,7 +138,7 @@
 						<width>260</width>
 						<height>81</height>
 						<texture border="5">MenuItemFO.png</texture>
-						<animation effect="fade" start="100" end="30" time="75" condition="!Control.HasFocus(9000)">Conditional</animation>
+						<animation effect="fade" start="100" end="30" time="0" condition="!Control.HasFocus(9000)">Conditional</animation>
 					</control>
 					<control type="label">
 						<left>10</left>
