@@ -439,7 +439,7 @@
 						<bordertexture border="2">button-nofocus.png</bordertexture>
 						<bordersize>2</bordersize>
 						<texture background="false">$VAR[PosterThumb]</texture>
-						<aspectratio>keep</aspectratio>
+						<aspectratio>stretch</aspectratio>
 					</control>
 				</itemlayout>
 				<focusedlayout condition="!Container.Content(Movies) + !Container.Content(Seasons) + !Container.Content(TVShows) + !Container.Content(Sets)" height="120" width="160">
@@ -451,7 +451,7 @@
 						<bordertexture border="2">folder-focus.png</bordertexture>
 						<bordersize>2</bordersize>
 						<texture background="false">$VAR[PosterThumb]</texture>
-						<aspectratio>keep</aspectratio>
+						<aspectratio>stretch</aspectratio>
 					</control>
 				</focusedlayout>
 				<itemlayout condition="Container.Content(Movies) | Container.Content(Seasons) | Container.Content(TVShows) | Container.Content(Sets)" height="120" width="80">
@@ -463,7 +463,7 @@
 						<bordertexture border="2">button-nofocus.png</bordertexture>
 						<bordersize>2</bordersize>
 						<texture background="false">$VAR[PosterThumb]</texture>
-						<aspectratio>keep</aspectratio>
+						<aspectratio>stretch</aspectratio>
 					</control>
 				</itemlayout>
 				<focusedlayout condition="Container.Content(Movies) | Container.Content(Seasons) | Container.Content(TVShows) | Container.Content(Sets)" height="120" width="80">
@@ -475,7 +475,7 @@
 						<bordertexture border="2">folder-focus.png</bordertexture>
 						<bordersize>2</bordersize>
 						<texture background="false">$VAR[PosterThumb]</texture>
-						<aspectratio>keep</aspectratio>
+						<aspectratio>stretch</aspectratio>
 					</control>
 				</focusedlayout>
 			</control>
@@ -522,7 +522,7 @@
 						<bordertexture border="2">button-nofocus.png</bordertexture>
 						<bordersize>2</bordersize>
 						<texture background="false">$VAR[PosterThumb]</texture>
-						<aspectratio>keep</aspectratio>
+						<aspectratio>stretch</aspectratio>
 					</control>
 				</itemlayout>
 				<focusedlayout condition="!Container.Content(Movies) + !Container.Content(Seasons) + !Container.Content(TVShows) + !Container.Content(Sets)" height="240" width="160">
@@ -534,7 +534,7 @@
 						<bordertexture border="2">folder-focus.png</bordertexture>
 						<bordersize>2</bordersize>
 						<texture background="false">$VAR[PosterThumb]</texture>
-						<aspectratio>keep</aspectratio>
+						<aspectratio>stretch</aspectratio>
 					</control>
 				</focusedlayout>
 				<itemlayout condition="Container.Content(Movies) | Container.Content(Seasons) | Container.Content(TVShows) | Container.Content(Sets)" height="240" width="160">
@@ -546,7 +546,7 @@
 						<bordertexture border="2">button-nofocus.png</bordertexture>
 						<bordersize>2</bordersize>
 						<texture background="false">$VAR[PosterThumb]</texture>
-						<aspectratio>keep</aspectratio>
+						<aspectratio>stretch</aspectratio>
 					</control>
 				</itemlayout>
 				<focusedlayout condition="Container.Content(Movies) | Container.Content(Seasons) | Container.Content(TVShows) | Container.Content(Sets)" height="240" width="160">
@@ -558,13 +558,13 @@
 						<bordertexture border="2">folder-focus.png</bordertexture>
 						<bordersize>2</bordersize>
 						<texture background="false">$VAR[PosterThumb]</texture>
-						<aspectratio>keep</aspectratio>
+						<aspectratio>stretch</aspectratio>
 					</control>
 				</focusedlayout>
 			</control>
 			<control type="scrollbar" id="60">
 				<animation effect="slide" end="-20,0" time="0">Focus</animation>
-				<left>12160</left>
+				<left>1280</left>
 				<top>0</top>
 				<width>25</width>
 				<height>720</height>
