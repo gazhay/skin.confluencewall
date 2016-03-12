@@ -500,15 +500,15 @@
 	</include>
 	<include name="Wall">
 		<control type="group">
-			<visible>Control.IsVisible(508)</visible>
+			<visible>Control.IsVisible(518)</visible>
 			<include>VisibleFadeEffect</include>
-			<control type="panel" id="508">
+			<control type="panel" id="518">
 				<width>1280</width>
 				<height>720</height>
 				<onleft>2</onleft>
 				<onright>60</onright>
-				<onup>508</onup>
-				<ondown>508</ondown>
+				<onup>518</onup>
+				<ondown>518</ondown>
 				<viewtype label="Wall">list</viewtype>
 				<pagecontrol>60</pagecontrol>
 				<scrolltime>200</scrolltime>
@@ -573,11 +573,11 @@
 				<texturesliderbarfocus border="2,16,2,16">ScrollBarV_bar_focus.png</texturesliderbarfocus>
 				<textureslidernib>ScrollBarNib.png</textureslidernib>
 				<textureslidernibfocus>ScrollBarNib.png</textureslidernibfocus>
-				<onleft>508</onleft>
+				<onleft>518</onleft>
 				<onright>2</onright>
 				<showonepage>false</showonepage>
 				<orientation>vertical</orientation>
-				<visible>Control.IsVisible(508)</visible>
+				<visible>Control.IsVisible(518)</visible>
 			</control>
 		</control>
 	</include>
