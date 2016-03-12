@@ -233,7 +233,7 @@
 			<font>-</font>
 			<texturefocus>HasSub.png</texturefocus>
 			<texturenofocus>HasSub.png</texturenofocus>
-			<visible>!Control.IsVisible(502) + !Control.IsVisible(506) + !Control.IsVisible(507)</visible>
+			<visible>!Control.IsVisible(502) + !Control.IsVisible(518) + !Control.IsVisible(507)</visible>
 		</control>
 		<control type="image">
 			<left>0</left>

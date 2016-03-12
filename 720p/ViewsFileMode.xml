@@ -517,7 +517,7 @@
 					<control type="image">
 						<left>8</left>
 						<top>0</top>
-						<width>152</width>
+						<width>160</width>
 						<height>160</height>
 						<bordertexture border="2">button-nofocus.png</bordertexture>
 						<bordersize>2</bordersize>
@@ -529,7 +529,7 @@
 					<control type="image">
 						<left>8</left>
 						<top>0</top>
-						<width>152</width>
+						<width>160</width>
 						<height>160</height>
 						<bordertexture border="2">folder-focus.png</bordertexture>
 						<bordersize>2</bordersize>
@@ -541,7 +541,7 @@
 					<control type="image">
 						<left>8</left>
 						<top>0</top>
-						<width>152</width>
+						<width>160</width>
 						<height>240</height>
 						<bordertexture border="2">button-nofocus.png</bordertexture>
 						<bordersize>2</bordersize>
@@ -553,7 +553,7 @@
 					<control type="image">
 						<left>8</left>
 						<top>0</top>
-						<width>152</width>
+						<width>160</width>
 						<height>240</height>
 						<bordertexture border="2">folder-focus.png</bordertexture>
 						<bordersize>2</bordersize>
@@ -586,8 +586,9 @@
 			<visible>Control.IsVisible(507)</visible>
 			<include>VisibleFadeEffect</include>
 			<control type="panel" id="507">
-				<width>1280</width>
+				<width>1200</width>
 				<height>720</height>
+				<left>40</left>
 				<onleft>2</onleft>
 				<onright>60</onright>
 				<onup>507</onup>
@@ -620,9 +621,9 @@
 						<aspectratio>stretch</aspectratio>
 					</control>
 				</focusedlayout>
-				<itemlayout condition="Container.Content(Movies) | Container.Content(Seasons) | Container.Content(TVShows) | Container.Content(Sets)" height="180" width="128">
+				<itemlayout condition="Container.Content(Movies) | Container.Content(Seasons) | Container.Content(TVShows) | Container.Content(Sets)" height="180" width="120">
 					<control type="image">
-						<left>8</left>
+						<left>0</left>
 						<top>0</top>
 						<width>120</width>
 						<height>180</height>
@@ -632,9 +633,9 @@
 						<aspectratio>stretch</aspectratio>
 					</control>
 				</itemlayout>
-				<focusedlayout condition="Container.Content(Movies) | Container.Content(Seasons) | Container.Content(TVShows) | Container.Content(Sets)" height="180" width="128">
+				<focusedlayout condition="Container.Content(Movies) | Container.Content(Seasons) | Container.Content(TVShows) | Container.Content(Sets)" height="180" width="120">
 					<control type="image">
-						<left>8</left>
+						<left>0</left>
 						<top>0</top>
 						<width>120</width>
 						<height>180</height>
