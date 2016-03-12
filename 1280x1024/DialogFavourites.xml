@@ -14,7 +14,7 @@
 				<left>400r</left>
 				<top>0</top>
 				<width>400</width>
-				<height>720</height>
+				<height>1024</height>
 				<texture border="15,0,0,0" flipx="true">HomeBladeSub.png</texture>
 			</control>
 			<control type="button">
@@ -49,7 +49,7 @@
 				<left>390r</left>
 				<top>250</top>
 				<width>450</width>
-				<height>380</height>
+				<height>680</height>
 				<onup>450</onup>
 				<onleft>Dialog.Close(Favourites)</onleft>
 				<onright>450</onright>
@@ -109,7 +109,7 @@
 			<control type="label">
 				<description>Page label</description>
 				<right>30</right>
-				<top>670</top>
+				<top>970</top>
 				<width>350</width>
 				<height>30</height>
 				<align>right</align>
