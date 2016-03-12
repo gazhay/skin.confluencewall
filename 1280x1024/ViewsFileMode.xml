@@ -8,7 +8,7 @@
 				<left>70</left>
 				<top>78</top>
 				<width>690</width>
-				<height>561</height>
+				<height>761</height>
 				<onleft>2</onleft>
 				<onright>60</onright>
 				<onup>50</onup>
@@ -188,7 +188,7 @@
 				<left>760</left>
 				<top>85</top>
 				<width>25</width>
-				<height>550</height>
+				<height>750</height>
 				<texturesliderbackground border="0,14,0,14">ScrollBarV.png</texturesliderbackground>
 				<texturesliderbar border="0,14,0,14">ScrollBarV_bar.png</texturesliderbar>
 				<texturesliderbarfocus border="0,14,0,14">ScrollBarV_bar_focus.png</texturesliderbarfocus>
@@ -208,7 +208,7 @@
 					<left>0</left>
 					<top>0</top>
 					<width>360</width>
-					<height>540</height>
+					<height>740</height>
 					<aspectratio aligny="bottom">keep</aspectratio>
 					<fadetime>IconCrossfadeTime</fadetime>
 					<texture background="true">$VAR[PosterThumb]</texture>
@@ -219,7 +219,7 @@
 					<left>8</left>
 					<top>532</top>
 					<width>344</width>
-					<height>524</height>
+					<height>724</height>
 					<aspectratio aligny="top">keep</aspectratio>
 					<fadetime>IconCrossfadeTime</fadetime>
 					<texture diffuse="diffuse_mirror3.png" flipy="true" background="true">$VAR[PosterThumb]</texture>
@@ -421,7 +421,8 @@
 			<include>VisibleFadeEffect</include>
 			<control type="panel" id="502">
 				<width>1200</width>
-				<height>720</height>
+				<height>960</height>
+				<top>32</top>
 				<left>40</left>
 				<onleft>2</onleft>
 				<onright>60</onright>
@@ -485,7 +486,7 @@
 				<left>1280</left>
 				<top>0</top>
 				<width>25</width>
-				<height>720</height>
+				<height>1024</height>
 				<texturesliderbackground border="0,14,0,14">ScrollBarV.png</texturesliderbackground>
 				<texturesliderbar border="2,16,2,16">ScrollBarV_bar.png</texturesliderbar>
 				<texturesliderbarfocus border="2,16,2,16">ScrollBarV_bar_focus.png</texturesliderbarfocus>
@@ -505,8 +506,8 @@
 			<include>VisibleFadeEffect</include>
 			<control type="panel" id="518">
 				<width>1280</width>
-				<height>640</height>
-				<top>40</top>
+				<height>960</height>
+				<top>27</top>
 				<onleft>2</onleft>
 				<onright>60</onright>
 				<onup>518</onup>
@@ -569,7 +570,7 @@
 				<left>1280</left>
 				<top>0</top>
 				<width>25</width>
-				<height>720</height>
+				<height>1024</height>
 				<texturesliderbackground border="0,14,0,14">ScrollBarV.png</texturesliderbackground>
 				<texturesliderbar border="2,16,2,16">ScrollBarV_bar.png</texturesliderbar>
 				<texturesliderbarfocus border="2,16,2,16">ScrollBarV_bar_focus.png</texturesliderbarfocus>
@@ -589,7 +590,8 @@
 			<include>VisibleFadeEffect</include>
 			<control type="panel" id="507">
 				<width>1200</width>
-				<height>720</height>
+				<height>900</height>
+				<top>62</top>
 				<left>40</left>
 				<onleft>2</onleft>
 				<onright>60</onright>
@@ -653,7 +655,7 @@
 				<left>1280</left>
 				<top>0</top>
 				<width>25</width>
-				<height>720</height>
+				<height>1024</height>
 				<texturesliderbackground border="0,14,0,14">ScrollBarV.png</texturesliderbackground>
 				<texturesliderbar border="2,16,2,16">ScrollBarV_bar.png</texturesliderbar>
 				<texturesliderbarfocus border="2,16,2,16">ScrollBarV_bar_focus.png</texturesliderbarfocus>
@@ -752,7 +754,7 @@
 				<left>95</left>
 				<top>78</top>
 				<width>1080</width>
-				<height>561</height>
+				<height>761</height>
 				<onleft>2</onleft>
 				<onright>60</onright>
 				<onup>51</onup>
@@ -948,7 +950,7 @@
 				<left>1170</left>
 				<top>80</top>
 				<width>25</width>
-				<height>550</height>
+				<height>750</height>
 				<texturesliderbackground border="0,14,0,14">ScrollBarV.png</texturesliderbackground>
 				<texturesliderbar border="0,14,0,14">ScrollBarV_bar.png</texturesliderbar>
 				<texturesliderbarfocus border="0,14,0,14">ScrollBarV_bar_focus.png</texturesliderbarfocus>
