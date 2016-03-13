@@ -28,14 +28,14 @@
 			<left>0</left>
 			<top>0</top>
 			<width>1280</width>
-			<height>720</height>
+			<height>1024</height>
 			<texture>black-back.png</texture>
 		</control>
 		<control type="grouplist" id="9000">
 			<left>470</left>
 			<top>0</top>
 			<width>340</width>
-			<height>720</height>
+			<height>1024</height>
 			<onleft>9000</onleft>
 			<onright>9000</onright>
 			<onup>9000</onup>

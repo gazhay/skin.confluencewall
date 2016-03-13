@@ -7,7 +7,7 @@
 			<left>0</left>
 			<top>0</top>
 			<width>1280</width>
-			<height>720</height>
+			<height>1024</height>
 			<visible>Player.HasVideo</visible>
 		</control>
 		<control type="group">
@@ -19,7 +19,7 @@
 			<left>0</left>
 			<top>0</top>
 			<width>1280</width>
-			<height>720</height>
+			<height>1024</height>
 			<texture>black-back.png</texture>
 			<include>dialogeffect</include>
 		</control>

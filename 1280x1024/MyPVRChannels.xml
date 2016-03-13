@@ -419,7 +419,7 @@
 			<left>0</left>
 			<top>0</top>
 			<width>1280</width>
-			<height>720</height>
+			<height>1024</height>
 			<texture>black-back.png</texture>
 			<animation effect="fade" time="0">Visible</animation>
 			<animation effect="fade" time="0">Hidden</animation>

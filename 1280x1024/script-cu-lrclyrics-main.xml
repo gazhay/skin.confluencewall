@@ -16,7 +16,7 @@
 				<left>0</left>
 				<top>0</top>
 				<width>600</width>
-				<height>720</height>
+				<height>1024</height>
 				<colordiffuse>BBFFFFFF</colordiffuse>
 				<texture border="20,0,0,0" flipx="true">MediaBladeSub.png</texture>
 			</control>

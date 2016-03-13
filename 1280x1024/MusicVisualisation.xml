@@ -9,14 +9,14 @@
 			<left>0</left>
 			<top>0</top>
 			<width>1280</width>
-			<height>720</height>
+			<height>1024</height>
 		</control>
 		<control type="image">
 			<description>Fanart Image for Artist</description>
 			<left>0</left>
 			<top>0</top>
 			<width>1280</width>
-			<height>720</height>
+			<height>1024</height>
 			<texture background="true">$INFO[Player.Art(fanart)]</texture>
 			<colordiffuse>AAFFFFFF</colordiffuse>
 			<visible>!IsEmpty(Player.Art(fanart)) + !Skin.HasSetting(HideVisualizationFanart)</visible>

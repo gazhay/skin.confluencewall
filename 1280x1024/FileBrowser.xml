@@ -18,7 +18,7 @@
 				<left>0</left>
 				<top>0</top>
 				<width>1320</width>
-				<height>720</height>
+				<height>1024</height>
 				<texture border="15,0,0,0" flipx="true">MediaBladeSub.png</texture>
 			</control>
 			<control type="image">

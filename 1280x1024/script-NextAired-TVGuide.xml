@@ -16,7 +16,7 @@
 				<left>0</left>
 				<top>0</top>
 				<width>1280</width>
-				<height>720</height>
+				<height>1024</height>
 				<aspectratio>scale</aspectratio>
 				<texture background="true">$INFO[Container(200).ListItem.Property(Fanart)]</texture>
 				<visible>Control.HasFocus(200)</visible>
@@ -28,7 +28,7 @@
 				<left>0</left>
 				<top>0</top>
 				<width>1280</width>
-				<height>720</height>
+				<height>1024</height>
 				<aspectratio>scale</aspectratio>
 				<texture background="true">$INFO[Container(201).ListItem.Property(Fanart)]</texture>
 				<visible>Control.HasFocus(201)</visible>
@@ -40,7 +40,7 @@
 				<left>0</left>
 				<top>0</top>
 				<width>1280</width>
-				<height>720</height>
+				<height>1024</height>
 				<aspectratio>scale</aspectratio>
 				<texture background="true">$INFO[Container(202).ListItem.Property(Fanart)]</texture>
 				<visible>Control.HasFocus(202)</visible>
@@ -52,7 +52,7 @@
 				<left>0</left>
 				<top>0</top>
 				<width>1280</width>
-				<height>720</height>
+				<height>1024</height>
 				<aspectratio>scale</aspectratio>
 				<texture background="true">$INFO[Container(203).ListItem.Property(Fanart)]</texture>
 				<visible>Control.HasFocus(203)</visible>
@@ -64,7 +64,7 @@
 				<left>0</left>
 				<top>0</top>
 				<width>1280</width>
-				<height>720</height>
+				<height>1024</height>
 				<aspectratio>scale</aspectratio>
 				<texture background="true">$INFO[Container(204).ListItem.Property(Fanart)]</texture>
 				<visible>Control.HasFocus(204)</visible>
@@ -76,7 +76,7 @@
 				<left>0</left>
 				<top>0</top>
 				<width>1280</width>
-				<height>720</height>
+				<height>1024</height>
 				<aspectratio>scale</aspectratio>
 				<texture background="true">$INFO[Container(205).ListItem.Property(Fanart)]</texture>
 				<visible>Control.HasFocus(205)</visible>
@@ -88,7 +88,7 @@
 				<left>0</left>
 				<top>0</top>
 				<width>1280</width>
-				<height>720</height>
+				<height>1024</height>
 				<aspectratio>scale</aspectratio>
 				<texture background="true">$INFO[Container(206).ListItem.Property(Fanart)]</texture>
 				<visible>Control.HasFocus(206)</visible>

@@ -9,7 +9,7 @@
 			<left>0</left>
 			<top>0</top>
 			<width>1280</width>
-			<height>720</height>
+			<height>1024</height>
 			<imagepath background="true">$INFO[Skin.String(WeatherFanartDir)]$INFO[Window(Weather).Property(Current.FanartCode)]</imagepath>
 			<timeperimage>10000</timeperimage>
 			<randomize>true</randomize>

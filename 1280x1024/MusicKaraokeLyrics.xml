@@ -6,7 +6,7 @@
 			<left>0</left>
 			<top>0</top>
 			<width>1280</width>
-			<height>720</height>
+			<height>1024</height>
 			<visible>false</visible>
 		</control>
 		<control type="image" id="2">
@@ -14,7 +14,7 @@
 			<left>0</left>
 			<top>0</top>
 			<width>1280</width>
-			<height>720</height>
+			<height>1024</height>
 			<visible>false</visible>
 		</control>
 		<control type="group">
