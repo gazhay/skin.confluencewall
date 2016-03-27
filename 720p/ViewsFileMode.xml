@@ -505,8 +505,8 @@
 			<include>VisibleFadeEffect</include>
 			<control type="panel" id="518">
 				<width>1280</width>
-				<height>640</height>
-				<top>40</top>
+				<height>720</height>
+				<top>0</top>
 				<onleft>2</onleft>
 				<onright>60</onright>
 				<onup>518</onup>
@@ -588,9 +588,9 @@
 			<visible>Control.IsVisible(507)</visible>
 			<include>VisibleFadeEffect</include>
 			<control type="panel" id="507">
-				<width>1200</width>
+				<width>1280</width>
 				<height>720</height>
-				<left>40</left>
+				<left>0</left>
 				<onleft>2</onleft>
 				<onright>60</onright>
 				<onup>507</onup>
